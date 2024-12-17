@@ -153,7 +153,7 @@ export function Experience() {
 
             <div className="text-sm text-gray-400 font-medium">
               <span className="text-white ">
-                The Secretarian General of the People's Representative Council
+                The Secretarian General of the People&apos;s Representative Council
                 of The Republic Indonesia
               </span>{" "}
               (abbreviated as Setjen DPR RI) is a supporting system element of{" "}
@@ -251,9 +251,9 @@ export function Experience() {
             <div className="text-sm text-gray-400 mt-8 font-medium">
               As a <span className="text-white ">Teacher</span> at SMK Farmasi
               Bhakti Kencana Bogor, I taught{" "}
-              <span className="text-white ">"Simulasi Digital"</span> to{" "}
+              <span className="text-white ">&quot;Simulasi Digital&quot;</span> to{" "}
               <span className="text-white ">10th graders</span> and{" "}
-              <span className="text-white ">"TIK"</span> to{" "}
+              <span className="text-white ">&quot;TIK&quot;</span> to{" "}
               <span className="text-white ">11th</span> and{" "}
               <span className="text-white ">12th graders</span>, helping foster
               digital literacy among students.
