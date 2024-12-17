@@ -1,13 +1,13 @@
 # Portfolio
 
-Hi there, I'm **lassiecoder**! 👋
+Hi there, I'm **Yulia**! 👋
 This is my personal portfolio template built using Next.js and Tailwind CSS with smooth animations powered by Framer Motion.
 
 ## Author
 
-**Priyanka Sharma**
+**Yulia Rizki Anjani**
 
-- Email: sharmapriyanka84510@gmail.com
+- Email: yuliarizkianjani@gmail.com
 
 ## License
 
@@ -116,10 +116,6 @@ npm run dev
 
 Feel free to submit issues or pull requests.
 
-## Preview
-
-![portfolio-preview](https://github.com/lassiecoder/portfolio/assets/17312616/0d9c65b3-d9c4-4ead-9458-c9ab85f006d0)
-
 ## Contact
 
-For any inquiries, please contact me at lassiecoder@gmail.com.
+For any inquiries, please contact me at yuliarizkianjani@gmail.com.
