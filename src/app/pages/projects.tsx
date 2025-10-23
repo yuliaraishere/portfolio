@@ -20,7 +20,7 @@ const ThreeDCard = () => {
             <CardContainer className="inter-var font-medium">
               <CardBody
                 key={index}
-                className="bg-black relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-white/[0.2] w-auto  h-auto rounded-xl p-6 border"
+                className="bg-black relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-white/[0.2] w-auto h-auto rounded-xl p-6 border"
               >
                 <CardItem
                   translateZ="50"
@@ -42,7 +42,6 @@ const ThreeDCard = () => {
                     width="1000"
                     className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                     alt="thumbnail"
-                    // unoptimized
                     priority
                   />
                 </CardItem>
@@ -71,6 +70,27 @@ export default ThreeDCard;
 
 const dummyData = [
   {
+    title: "Hejaz Financial Services Website",
+    description:
+      "A modern full-stack website built for Hejaz Financial Services, an ethical finance company offering superannuation, investment, and wealth management solutions. Responsible for maintaining and enhancing the platform to ensure performance, scalability, and brand alignment.",
+    image: "/images/5.png",
+    link: "https://www.hejazfs.com.au",
+  },
+  {
+    title: "Halal Money Website",
+    description:
+      "The Halal Money platform focuses on faith-based financial literacy and investment education. I contributed to both frontend and backend development, ensuring seamless integration between marketing automation, CRM systems, and responsive web experience.",
+    image: "/images/7.png",
+    link: "https://www.halalmoney.com.au",
+  },
+  {
+    title: "Hejaz Portal (Internal CRM & Automation)",
+    description:
+      "An internal portal developed for Hejaz Group to streamline CRM processes, automate lead management, and integrate HubSpot workflows with custom code and Jotform. Designed and maintained the platform to improve operational efficiency across multiple departments.",
+    image: "/images/6.png",
+    link: "https://portal.hejazfs.com.au",
+  },
+  {
     title: "Heritage Building Website",
     description:
       "This website is created to provide information about cultural heritage sites across all provinces in Jakarta.",
@@ -81,7 +101,7 @@ const dummyData = [
     title: "Learning Management System",
     description:
       "This project was completed during my internship at the Setjen DPR RI. This LMS was developed to meet the learning needs of Secretariat General employees.",
-    image: "images/1.png",
+    image: "/images/1.png",
     link: "https://github.com/yuliaraishere/e-learning",
   },
   {
@@ -98,20 +118,4 @@ const dummyData = [
     image: "/images/3.png",
     link: "https://yuliaraishere.github.io/A06_present/",
   },
-  /**{
-    title: "Mutual funding app",
-    description:
-      "The proof-of-concept app exhibits mutual funds with authentication, presenting a scrollable list of key fund information. Selecting a fund directs users to a detailed product page for additional insights.",
-    image:
-      "https://github.com/lassiecoder/portfolio/assets/17312616/fbcc8292-4b94-4156-8125-07ac93f9266e",
-    link: "https://github.com/lassiecoder/mutual-funding-app"
-  },
-  {
-    title: "Adecco",
-    description:
-      "The Adecco mobile app transforms job placement with accuracy, speed, and thorough evaluation. Daily linking over 700,000 individuals to top-tier global opportunities.",
-    image:
-      "https://github.com/lassiecoder/portfolio/assets/17312616/261c3286-edf3-4ba9-bf70-027fde826915",
-    link: "https://play.google.com/store/apps/details?id=com.adecco.app20&amp;hl=en_IN&amp;gl=US"
-  }**/
 ];

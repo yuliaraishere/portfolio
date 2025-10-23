@@ -16,7 +16,7 @@ const About = () => {
           <span className="text-white">Kiki ^^</span> in the tech community.
         </p>
         <p className="mt-6">
-          With <span className="text-white">1 year </span>
+          With <span className="text-white">2 years </span>
           of experience as a <span className="text-white"></span>
           <span className="text-white">Software Developer</span>, I specialize
           in <span className="text-white"></span>web app development, both in
@@ -25,14 +25,22 @@ const About = () => {
         <p className="mt-6">
           My technical expertise includes –{" "}
           <span className="text-white">JavaScript</span>,{" "}
-          <span className="text-white">TypeScript</span>, and{" "}
-          <span className="text-white">React ecosystems</span>, along with{" "}
-          <span className="text-white">backend technologies</span>,{" "}
-          <span className="text-white">cloud deployment</span>,{" "}
-          <span className="text-white">state management</span>,{" "}
-          <span className="text-white">real-time communication</span>, and{" "}
-          <span className="text-white">UI development</span> and{" "}
-          <span className="text-white">testing</span>.
+          <span className="text-white">TypeScript</span>,{" "}
+          <span className="text-white">React ecosystems</span>, and{" "}
+          <span className="text-white">UI development</span>, combined with{" "}
+          <span className="text-white">state management</span> and{" "}
+          <span className="text-white">real-time communication</span> capabilities.{" "}
+          On the backend, I work with{" "}
+          <span className="text-white">Laravel</span> and other{" "}
+          <span className="text-white">backend technologies</span>, while also managing{" "}
+          <span className="text-white">cloud deployment</span> and{" "}
+          <span className="text-white">DevOps practices</span> for automation and
+          scalability. I have hands-on experience with{" "}
+          <span className="text-white">Kentico</span>,{" "}
+          <span className="text-white">WordPress</span>, and other{" "}
+          <span className="text-white">modern CMS platforms</span>, alongside{" "}
+          <span className="text-white">testing</span> to ensure high-quality
+          performance.
         </p>
         <p className="mt-6">
           Currently, I&apos;m contributing my skills as a Web Developer to{" "}

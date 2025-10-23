@@ -10,20 +10,97 @@ export function Experience() {
       setIsSmallScreen(window.innerWidth <= 770);
     };
 
-    // Check screen size on initial render
     handleResize();
-
-    // Add event listener for window resize
     window.addEventListener("resize", handleResize);
-
-    // Cleanup the event listener on component unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
   const data = [
     {
       title: (
         <Image
-          src="/images/logo/disbud.png" //logo and name
+          src="/images/logo/hjz.png"
+          alt="hejaz-logo"
+          width={150}
+          height={60}
+        />
+      ),
+      duration: "Feb 2024 – Present",
+      smallScreenLogo: (
+        <Image
+          src="/images/logo/hjz.png"
+          alt="hejaz-logo"
+          width={50}
+          height={50}
+        />
+      ),
+      content: (
+        <div className="max-w-4xl mx-auto">
+          <div>
+            <h1 className="text-3xl text-white mb-6">
+              <p className="font-bold flex text-xl md:text-xl lg:text-2xl">
+                Full Stack Web Developer
+              </p>
+
+              {isSmallScreen ? (
+                <p className="font-light flex text-xs mt-2">
+                  <span className="font-medium mr-2">
+                    Hejaz Financial Services & Halal Money
+                  </span>
+                  (Feb 2025 – Present)
+                </p>
+              ) : (
+                <p className="text-gray-400 text-base md:text-sm mt-2 block italic">
+                  (Feb 2025 – Present)
+                </p>
+              )}
+            </h1>
+
+            <div className="text-sm text-gray-400 font-medium">
+              <span className="text-white">Hejaz Financial Services</span> and{" "}
+              <span className="text-white">Halal Money</span> are part of an
+              integrated financial ecosystem focused on{" "}
+              <span className="text-white">ethical and faith-based finance</span>
+              , including wealth management, superannuation, and digital
+              investment platforms.
+            </div>
+
+            <div className="text-sm text-gray-400 mt-8 font-medium">
+              <p>
+                At{" "}
+                <span className="text-white">
+                  Hejaz Financial Services & Halal Money
+                </span>
+                , I maintain and develop{" "}
+                <span className="text-white">web platforms end-to-end</span>,
+                ensuring scalability, performance, and alignment with business
+                goals.
+              </p>
+              <p className="mt-2">
+                I also handle{" "}
+                <span className="text-white">CRM automation</span> and{" "}
+                <span className="text-white">system integration</span> using{" "}
+                <span className="text-white">HubSpot</span>,{" "}
+                <span className="text-white">custom code</span>, and{" "}
+                <span className="text-white">Jotform</span>, streamlining lead
+                management, client engagement, and operational efficiency.
+              </p>
+              <p className="mt-2">
+                My role bridges{" "}
+                <span className="text-white">technical implementation</span> and{" "}
+                <span className="text-white">strategic automation</span>,
+                contributing to a smoother digital ecosystem across Hejaz Group’s
+                financial services.
+              </p>
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: (
+        <Image
+          src="/images/logo/disbud.png"
           alt="disbud-logo"
           width={200}
           height={60}
@@ -32,7 +109,7 @@ export function Experience() {
       duration: "2024 – Present",
       smallScreenLogo: (
         <Image
-          src="/images/logo/disbud.png" //just logo
+          src="/images/logo/disbud.png"
           alt="disbud-logo"
           width={50}
           height={50}
@@ -45,61 +122,49 @@ export function Experience() {
               <p className="font-bold flex text-xl md:text-xl lg:text-2xl">
                 Web Developer Specialist
               </p>
-
-              {/* Show only if screen size is <= 770px */}
-              {isSmallScreen && (
+              {isSmallScreen ? (
                 <p className="font-light flex text-xs mt-2">
                   <span className="font-medium mr-2">
                     Dinas Kebudayaan DKI Jakarta
                   </span>
-                  (Feb 24 – Present)
+                  (Feb 2024 – Present)
                 </p>
-              )}
-
-              {/* Show only if screen size is > 770px */}
-              {!isSmallScreen && (
+              ) : (
                 <p className="text-gray-400 text-base md:text-sm mt-2 block italic">
-                  (Feb 24 – Present)
+                  (Feb 2024 – Present)
                 </p>
               )}
             </h1>
 
-            <div className=" text-gray-400 font-medium text-sm">
-              <span className="text-white ">Dinas Kebudayaan DKI Jakarta</span>{" "}
-              is a Provincial Government tasked with{" "}
-              <span className=" text-white">carrying out</span> governmental
-              <span className=" text-white">
-                {" "}
-                in the field of culture.
-              </span>{" "}
-              This includes various aspects of
-              <span className=" text-white"> cultural heritage </span>such as{" "}
-              <span className=" text-white">traditional arts</span>,{" "}
-              <span className=" text-white">history</span>,{" "}
-              <span className=" text-white">
-                cultural heritage conservation
-              </span>
-              , <span className=" text-white">museums</span>, and other related
-              areas.{" "}
+            <div className="text-sm text-gray-400 font-medium">
+              <span className="text-white">Dinas Kebudayaan DKI Jakarta</span> is
+              a Provincial Government tasked with{" "}
+              <span className="text-white">carrying out</span> governmental duties
+              in the field of{" "}
+              <span className="text-white">culture</span>, including{" "}
+              <span className="text-white">traditional arts</span>,{" "}
+              <span className="text-white">history</span>,{" "}
+              <span className="text-white">heritage conservation</span>,{" "}
+              <span className="text-white">museums</span>, and related areas.
             </div>
+
             <div className="text-sm text-gray-400 mt-8 font-medium">
               <p>
                 At{" "}
-                <span className="text-white ">
+                <span className="text-white">
                   Dinas Kebudayaan DKI Jakarta
                 </span>
                 , I contribute to the development of the{" "}
-                <span className=" text-white">Cultural Heritage Website</span>,
-                which is utilized by top companies for staffing solutions.
-                <p className="mt-2">
-                  I also work on the{" "}
-                  <span className=" text-white">global web app</span>, ensuring
-                  it meets diverse needs across various regions. My expertise
-                  includes using{" "}
-                  <span className=" text-white">React Native</span> and{" "}
-                  <span className=" text-white">React.js</span> to build
-                  efficient, user-friendly applications.
-                </p>
+                <span className="text-white">Cultural Heritage Website</span>,
+                utilized by leading institutions for cultural documentation.
+              </p>
+              <p className="mt-2">
+                I also work on the{" "}
+                <span className="text-white">global web app</span>, ensuring it
+                meets diverse regional needs. My expertise includes{" "}
+                <span className="text-white">React Native</span> and{" "}
+                <span className="text-white">React.js</span> to build efficient,
+                user-friendly applications.
               </p>
             </div>
           </div>
@@ -109,17 +174,17 @@ export function Experience() {
     {
       title: (
         <Image
-          src="/images/logo/setjen.png" //logo and name
-          alt="setjen_dpr-logo"
+          src="/images/logo/setjen.png"
+          alt="setjen-logo"
           width={150}
           height={45}
         />
       ),
-      duration: "2022 – Present",
+      duration: "2022 – 2022",
       smallScreenLogo: (
         <Image
-          src="/images/logo/setjen.png" //just logo
-          alt="setjen_dpr-logo"
+          src="/images/logo/setjen.png"
+          alt="setjen-logo"
           width={60}
           height={60}
         />
@@ -131,20 +196,14 @@ export function Experience() {
               <p className="font-bold flex text-xl md:text-xl lg:text-2xl">
                 Assistant of Learning Technology Development
               </p>
-              {/* <p className="text-gray-400 text-base md:text-sm mt-2 block italic">
-                (May 2022 – May 2023)
-              </p> */}
-              {isSmallScreen && (
+              {isSmallScreen ? (
                 <p className="font-light flex text-xs mt-2">
                   <span className="font-medium mr-2">
                     The Secretariat General of DPR RI
                   </span>
                   (Aug 2022 – Dec 2022)
                 </p>
-              )}
-
-              {/* Show only if screen size is > 770px */}
-              {!isSmallScreen && (
+              ) : (
                 <p className="text-gray-400 text-base md:text-sm mt-2 block italic">
                   (Aug 2022 – Dec 2022)
                 </p>
@@ -152,38 +211,34 @@ export function Experience() {
             </h1>
 
             <div className="text-sm text-gray-400 font-medium">
-              <span className="text-white ">
-                The Secretarian General of the People&apos;s Representative Council
-                of The Republic Indonesia
+              <span className="text-white">
+                The Secretariat General of the People&apos;s Representative
+                Council of The Republic Indonesia
               </span>{" "}
-              (abbreviated as Setjen DPR RI) is a supporting system element of{" "}
-              <span className=" text-white"> The DPR RI</span>, serving as the
-              Secretariat of a State Institution, headed by a
-              <span className=" text-white"> Secretary General</span>, and in
-              carrying out its dutie, is responsible to the leadership of the{" "}
-              <span className=" text-white">DPR</span>.
+              (Setjen DPR RI) is a supporting element of{" "}
+              <span className="text-white">DPR RI</span>, serving as the
+              Secretariat of a State Institution led by a{" "}
+              <span className="text-white">Secretary General</span>.
             </div>
+
             <div className="text-sm text-gray-400 mt-8 font-medium">
               <p>
-                At <span className="text-white ">Setjen DPR RI</span>, I
-                <span className="text-white "> evaluated </span> and{" "}
-                <span className="text-white ">revamped</span>, the e-learning
-                system, incorporating feedback from
-                <span className="text-white "> stakeholder </span> to improve
-                its effectiveness. I developed a
-                <span className="text-white "> new e-learning </span> using
-                <span className="text-white "> Laravel 8</span>, managing the
-                entire development lifecycle, from setting up the environment to
-                deployment.
+                At <span className="text-white">Setjen DPR RI</span>, I{" "}
+                <span className="text-white">evaluated</span> and{" "}
+                <span className="text-white">revamped</span> the e-learning
+                system, incorporating stakeholder feedback for improvement. I
+                developed a new{" "}
+                <span className="text-white">e-learning system</span> using{" "}
+                <span className="text-white">Laravel 8</span>, managing the full
+                development lifecycle from setup to deployment.
               </p>
               <p className="mt-2">
-                Additionally, I <span className="text-white "> attanded </span>
-                parliementary sessions, including{" "}
-                <span className=" text-white">RDPU </span>and
-                <span className="text-white "> Rapat Paripurna </span>, to
-                observe and better understand the formal processes within the
-                organization.{" "}
-              </p>{" "}
+                Additionally, I attended{" "}
+                <span className="text-white">parliamentary sessions</span> such
+                as <span className="text-white">RDPU</span> and{" "}
+                <span className="text-white">Rapat Paripurna</span> to better
+                understand the organization’s formal processes.
+              </p>
             </div>
           </div>
         </div>
@@ -192,7 +247,7 @@ export function Experience() {
     {
       title: (
         <Image
-          src="/images/logo/bkb.png" //logo and name
+          src="/images/logo/bkb.png"
           alt="bkb-logo"
           width={150}
           height={45}
@@ -200,7 +255,7 @@ export function Experience() {
       ),
       smallScreenLogo: (
         <Image
-          src="/images/logo/bkb.png" //just logo
+          src="/images/logo/bkb.png"
           alt="bkb-logo"
           width={150}
           height={40}
@@ -213,57 +268,50 @@ export function Experience() {
               <p className="font-bold flex text-xl md:text-xl lg:text-2xl">
                 Teacher
               </p>
-              {/* <p className="text-gray-400 text-base md:text-sm mt-2 block italic">
-                (Aug 2020 - May 2022)
-              </p> */}
-              {isSmallScreen && (
+              {isSmallScreen ? (
                 <p className="font-light flex text-xs mt-2">
                   <span className="font-medium mr-2">
                     Bhakti Kencana Pharmacy Vocational School
                   </span>
-                  (Jan 2021 - Jun 2022)
+                  (Jan 2021 – Jun 2022)
                 </p>
-              )}
-
-              {/* Show only if screen size is > 770px */}
-              {!isSmallScreen && (
+              ) : (
                 <p className="text-gray-400 text-base md:text-sm mt-2 block italic">
-                  (Jan 2021 - Jun 2022)
+                  (Jan 2021 – Jun 2022)
                 </p>
               )}
             </h1>
 
             <div className="text-sm text-gray-400 font-medium">
-              <span className="text-white ">
+              <span className="text-white">
                 SMK Farmasi Bhakti Kencana Bogor
               </span>{" "}
-              is a Vocational High School&apos; in the field of{" "}
-              <span className=" text-white">Health</span>, recognized as one of
-              the top and most favored
-              <span className=" text-white">Health School</span> in the Bogor
-              area. The School offers vocational Programs in various fields,
-              including <span className=" text-white">Pharmacy</span>,
-              <span className=" text-white"> Nursing</span>, and{" "}
-              <span className=" text-white">Medical Laboratory Technology</span>
+              is a Vocational High School specializing in{" "}
+              <span className="text-white">Health</span> and recognized as one of
+              the top health schools in Bogor. Programs include{" "}
+              <span className="text-white">Pharmacy</span>,{" "}
+              <span className="text-white">Nursing</span>, and{" "}
+              <span className="text-white">
+                Medical Laboratory Technology
+              </span>
               .
             </div>
 
             <div className="text-sm text-gray-400 mt-8 font-medium">
-              As a <span className="text-white ">Teacher</span> at SMK Farmasi
-              Bhakti Kencana Bogor, I taught{" "}
-              <span className="text-white ">&quot;Simulasi Digital&quot;</span> to{" "}
-              <span className="text-white ">10th graders</span> and{" "}
-              <span className="text-white ">&quot;TIK&quot;</span> to{" "}
-              <span className="text-white ">11th</span> and{" "}
-              <span className="text-white ">12th graders</span>, helping foster
-              digital literacy among students.
+              <p>
+                As a <span className="text-white">Teacher</span>, I taught{" "}
+                <span className="text-white">&quot;Simulasi Digital&quot;</span>{" "}
+                to <span className="text-white">10th graders</span> and{" "}
+                <span className="text-white">&quot;TIK&quot;</span> to{" "}
+                <span className="text-white">11th</span> and{" "}
+                <span className="text-white">12th graders</span>, fostering
+                students’ digital literacy.
+              </p>
               <p className="mt-2">
-                I also
-                <span className=" text-white"> designed</span> and
-                <span className=" text-white"> developed</span> a custom website
-                for the school, while managing the network topology and
-                configurations to ensure smooth digital operations and seamless
-                online learning environment.
+                I also <span className="text-white">designed</span> and{" "}
+                <span className="text-white">developed</span> a custom website
+                for the school while managing network topology and configurations
+                to ensure smooth digital operations.
               </p>
             </div>
           </div>
@@ -271,6 +319,7 @@ export function Experience() {
       ),
     },
   ];
+
   return (
     <div className="max-w-7xl mx-auto px-4 mt-20 ">
       <div className="px-4">
