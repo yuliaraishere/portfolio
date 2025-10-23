@@ -25,7 +25,7 @@ export function Experience() {
           height={60}
         />
       ),
-      duration: "Feb 2024 – Present",
+      duration: "2025 – Present",
       smallScreenLogo: (
         <Image
           src="/images/logo/hjz.png"
@@ -106,7 +106,7 @@ export function Experience() {
           height={60}
         />
       ),
-      duration: "2024 – Present",
+      duration: "2024 – 2024",
       smallScreenLogo: (
         <Image
           src="/images/logo/disbud.png"
@@ -127,11 +127,11 @@ export function Experience() {
                   <span className="font-medium mr-2">
                     Dinas Kebudayaan DKI Jakarta
                   </span>
-                  (Feb 2024 – Present)
+                  (Feb 2024 – Dec 2024)
                 </p>
               ) : (
                 <p className="text-gray-400 text-base md:text-sm mt-2 block italic">
-                  (Feb 2024 – Present)
+                  (Feb 2024 – Dec 2024)
                 </p>
               )}
             </h1>

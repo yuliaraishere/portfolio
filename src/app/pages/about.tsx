@@ -43,11 +43,15 @@ const About = () => {
           performance.
         </p>
         <p className="mt-6">
-          Currently, I&apos;m contributing my skills as a Web Developer to{" "}
-          <span className="text-white">Dinas Kebudayaan DKI Jakarta</span> by
-          creating a website about{" "}
-          <span className="text-white">Cultural Heritage</span> sites across the
-          province of DKI Jakarta.
+          In my current role, I work as a{" "}
+          <span className="text-white">Web Developer</span> at{" "}
+          <span className="text-white">Hejaz Financial Services</span>, where I
+          contribute to building and maintaining{" "}
+          <span className="text-white">Hejaz and Halal Money</span> websites and
+          internal systems — focusing on{" "}
+          <span className="text-white">full-stack development</span>,{" "}
+          <span className="text-white">CRM automation</span>, and{" "}
+          <span className="text-white">integrations across HubSpot, Jotform, and custom code solutions</span>.
         </p>
         <p className="mt-6">
           I&apos;m passionate about pushing technological boundaries and
