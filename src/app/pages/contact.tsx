@@ -76,7 +76,7 @@ const ContactForm = () => {
         .
       </h3>
       <div className="text-sm pt-60 sm:mt-20 font-light text-center relative z-20 text-gray-400 max-w-7xl pb-8">
-        Always be happy! | © Yulia Rizki Anjnani (Kiki ^^)
+        Always be happy! | © Yulia Rizki Anjani
       </div>
     </div>
   );
