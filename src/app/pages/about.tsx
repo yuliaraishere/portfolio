@@ -13,7 +13,7 @@ const About = () => {
       <h3 className="md:text-xl text-sm lg:text-xl font-medium text-left relative z-20 text-gray-400 max-w-7xl pb-8 lg:mb-4 pl-4 pr-4">
         <p>
           Hello, I&apos;m Yulia Rizki Anjani, also known as{" "}
-          <span className="text-white">Kiki ^^</span> in the tech community.
+          <span className="text-white">Kiki ^^</span>.
         </p>
         <p className="mt-6">
           With <span className="text-white">2 years </span>
