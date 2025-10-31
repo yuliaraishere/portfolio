@@ -26,7 +26,7 @@ export default function HomeScreen() {
           <p>
             A <span className="text-white font-medium">passionate Software Developer</span>{" "}
             specializing in <span className="text-white font-medium">modern web</span> and{" "}
-            <span className="text-white font-medium">full-stack development</span>. I turn{" "}
+            <span className="text-white font-medium">fullstack development</span>. I turn{" "}
             <span className="text-white font-medium">complex ideas</span> into{" "}
             <span className="text-white font-medium">intuitive, high-performing digital experiences</span> — blending{" "}
             <span className="text-white font-medium">clean code</span>,{" "}
