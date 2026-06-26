@@ -70,6 +70,20 @@ export default ThreeDCard;
 
 const dummyData = [
   {
+  title: "Wahda Website",
+  description:
+    "A full-stack launch platform for Wahda, a digital ecosystem built for Muslim community connection. Developed and maintained the animated brand website, waitlist registration, OTP verification, referral rewards, missions, quizzes, leaderboards, creator onboarding, admin tools, and email automation to support pre-launch growth and engagement.",
+  image: "/images/8.png",
+  link: "https://www.wahda.com",
+},
+  {
+    title: "Hejaz Global Website",
+    description:
+      "Developed and maintained a scalable Next.js and Sanity-powered platform for Hejaz, a global Islamic finance group. The site unifies Sharia-compliant asset management, ETFs, ventures, investor resources, insights, and dynamic fund content into a polished, performance-focused digital experience.",
+    image: "/images/9.png",
+    link: "https://www.hejaz.com",
+  },
+  {
     title: "Hejaz Financial Services Website",
     description:
       "A modern full-stack website built for Hejaz Financial Services, an ethical finance company offering superannuation, investment, and wealth management solutions. Responsible for maintaining and enhancing the platform to ensure performance, scalability, and brand alignment.",
@@ -95,7 +109,7 @@ const dummyData = [
     description:
       "This website is created to provide information about cultural heritage sites across all provinces in Jakarta.",
     image: "/images/4.png",
-    link: "http://hbimjakarta.com",
+    link: "https://dinaskebudayaan.jakarta.go.id",
   },
   {
     title: "Learning Management System",

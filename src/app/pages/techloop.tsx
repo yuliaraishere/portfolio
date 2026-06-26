@@ -8,9 +8,8 @@ import {
   SiTailwindcss,
   SiLaravel,
   SiWordpress,
-  SiAzuredevops,
 } from "react-icons/si";
-import { FaServer } from "react-icons/fa";
+import { FaCodeBranch, FaServer } from "react-icons/fa";
 import LogoLoop from "../../components/ui/logoloop";
 
 export function TechLoop() {
@@ -21,7 +20,7 @@ export function TechLoop() {
     { node: <SiTailwindcss className="text-white" />, title: "Tailwind CSS", href: "https://tailwindcss.com" },
     { node: <SiLaravel className="text-white" />, title: "Laravel", href: "https://laravel.com" },
     { node: <SiWordpress className="text-white" />, title: "WordPress", href: "https://wordpress.org" },
-    { node: <SiAzuredevops className="text-white" />, title: "DevOps", href: "https://azure.microsoft.com/en-us/products/devops" },
+    { node: <FaCodeBranch className="text-white" />, title: "DevOps", href: "https://azure.microsoft.com/en-us/products/devops" },
     { node: <FaServer className="text-white" />, title: "Backend", href: "#" },
   ];
 

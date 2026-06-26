@@ -16,9 +16,9 @@ const About = () => {
           <span className="text-white">Kiki ^^</span>.
         </p>
         <p className="mt-6">
-          With <span className="text-white">2 years </span>
+          With <span className="text-white">3 years </span>
           of experience as a <span className="text-white"></span>
-          <span className="text-white">Software Developer</span>, I specialize
+          <span className="text-white">Full-stack Developer</span>, I specialize
           in <span className="text-white"></span>web app development, both in
           Frond-end and Back-end.
         </p>
