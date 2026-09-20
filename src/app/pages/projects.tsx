@@ -70,6 +70,13 @@ export default ThreeDCard;
 
 const dummyData = [
   {
+    title: "Ecomurz (Rupa Marketplace)",
+    description:
+      "A full-stack multilingual e-commerce marketplace built with Next.js App Router and deployed on Vercel. Features product catalog with category filtering, cart and order management, and internationalization supporting 8 languages (ID, EN, JA, TL, VI, TH, HI, ZH). Powered by Supabase for backend and real-time data, Algolia for fast product search, and Resend for transactional emails. Styled with Tailwind CSS and shadcn/ui components.",
+    image: "/images/10.png",
+    link: "https://ecomurz.vercel.app/en",
+  },
+  {
   title: "Wahda Website",
   description:
     "A full-stack launch platform for Wahda, a digital ecosystem built for Muslim community connection. Developed and maintained the animated brand website, waitlist registration, OTP verification, referral rewards, missions, quizzes, leaderboards, creator onboarding, admin tools, and email automation to support pre-launch growth and engagement.",
