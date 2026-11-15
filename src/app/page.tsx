@@ -6,6 +6,7 @@ import About from "@/app/pages/about";
 import ContactForm from "./pages/contact";
 import { Experience } from "./pages/experience";
 import { TechLoop } from "./pages/techloop";
+import { Credentials } from "./pages/credentials";
 
 import ReactGA from "react-ga4";
 import { useEffect } from "react";
@@ -22,6 +23,7 @@ export default function Home() {
       <TechLoop />
       <Experience />
       <ThreeDCard />
+      <Credentials />
       <ContactForm />
     </div>
   );

@@ -4,9 +4,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title:
-    "Portfolio | Yulia Rizki Anjani (Kiki) | Web app developer",
+    "Yulia Rizki Anjani | Full Stack Developer",
   description:
-    "Crafting compelling narratives through design, merging creativity with functionality seamlessly."
+    "Full Stack Developer specializing in Next.js, React, TypeScript, Node.js, Supabase, and Headless CMS. Experienced in website migrations, customer portals, CRM integration, and automation."
 };
 
 export default function RootLayout({

@@ -70,72 +70,72 @@ export default ThreeDCard;
 
 const dummyData = [
   {
-    title: "Ecomurz (Rupa Marketplace)",
+    title: "Wahda Platform",
     description:
-      "A full-stack multilingual e-commerce marketplace built with Next.js App Router and deployed on Vercel. Features product catalog with category filtering, cart and order management, and internationalization supporting 8 languages (ID, EN, JA, TL, VI, TH, HI, ZH). Powered by Supabase for backend and real-time data, Algolia for fast product search, and Resend for transactional emails. Styled with Tailwind CSS and shadcn/ui components.",
-    image: "/images/10.png",
-    link: "https://ecomurz.vercel.app/en",
+      "Full-stack launch platform and waitlist admin panel built end to end in 3 weeks using Astro (SSR), React, TypeScript, and Supabase. Engineered backend Astro API routes, Resend email automation, Svix webhooks, secure authentication with bcryptjs, referral rewards, missions, quizzes, leaderboards, creator onboarding, and administrative management tools.",
+    image: "/images/8.png",
+    link: "https://www.wahda.com",
   },
-  {
-  title: "Wahda Website",
-  description:
-    "A full-stack launch platform for Wahda, a digital ecosystem built for Muslim community connection. Developed and maintained the animated brand website, waitlist registration, OTP verification, referral rewards, missions, quizzes, leaderboards, creator onboarding, admin tools, and email automation to support pre-launch growth and engagement.",
-  image: "/images/8.png",
-  link: "https://www.wahda.com",
-},
   {
     title: "Hejaz Global Website",
     description:
-      "Developed and maintained a scalable Next.js and Sanity-powered platform for Hejaz, a global Islamic finance group. The site unifies Sharia-compliant asset management, ETFs, ventures, investor resources, insights, and dynamic fund content into a polished, performance-focused digital experience.",
+      "Contributed to the multi-phase modernization of Hejaz's corporate website from WordPress to Headless Kentico CMS with Next.js, later evolving it with Sanity CMS. Unifies Sharia-compliant asset management, global ventures, ETFs, investor resources, and dynamic fund content into a high-performance digital experience.",
     image: "/images/9.png",
     link: "https://www.hejaz.com",
   },
   {
+    title: "Hejaz Customer Portal",
+    description:
+      "Designed and developed a customer portal using Next.js, integrating HubSpot (CRM), Jotform (forms), Sanity CMS (content), and Resend (email), with administrative tools that let non-technical teams manage content independently. Developed scheduled automation with Vercel Cron Jobs, QR generation, DOCX parsing, and image export.",
+    image: "/images/6.png",
+    link: "https://portal.hejazfs.com.au",
+  },
+  {
     title: "Hejaz Financial Services Website",
     description:
-      "A modern full-stack website built for Hejaz Financial Services, an ethical finance company offering superannuation, investment, and wealth management solutions. Responsible for maintaining and enhancing the platform to ensure performance, scalability, and brand alignment.",
+      "Migrated the Hejaz AU website off Kentico (MVC/.NET) to Next.js within 3 days. Powers ethical wealth management, superannuation, and digital investment solutions with optimized performance, Supabase migrations, and automated release workflows on Vercel.",
     image: "/images/5.png",
     link: "https://www.hejazfs.com.au",
   },
   {
     title: "Halal Money Website",
     description:
-      "The Halal Money platform focuses on faith-based financial literacy and investment education. I contributed to both frontend and backend development, ensuring seamless integration between marketing automation, CRM systems, and responsive web experience.",
+      "Migrated the Halal Money platform off Kentico (MVC/.NET) to Next.js within 3 days. Delivers faith-based financial literacy, educational resources, and investment content with responsive design, CRM integration, and automated marketing workflows.",
     image: "/images/7.png",
     link: "https://www.halalmoney.com.au",
   },
   {
-    title: "Hejaz Portal (Internal CRM & Automation)",
+    title: "Heritage Building Information Website",
     description:
-      "An internal portal developed for Hejaz Group to streamline CRM processes, automate lead management, and integrate HubSpot workflows with custom code and Jotform. Designed and maintained the platform to improve operational efficiency across multiple departments.",
-    image: "/images/6.png",
-    link: "https://portal.hejazfs.com.au",
-  },
-  {
-    title: "Heritage Building Website",
-    description:
-      "This website is created to provide information about cultural heritage sites across all provinces in Jakarta.",
+      "Led end-to-end design and development of the Heritage Building Information Website with Laravel 11 under a contract engagement with Dinas Kebudayaan DKI Jakarta. Analyzed existing website architecture and UX, proposed usability enhancements, and managed the complete project lifecycle from planning to deployment.",
     image: "/images/4.png",
     link: "https://dinaskebudayaan.jakarta.go.id",
   },
   {
-    title: "Learning Management System",
+    title: "Learning Management System (Setjen DPR RI)",
     description:
-      "This project was completed during my internship at the Setjen DPR RI. This LMS was developed to meet the learning needs of Secretariat General employees.",
+      "Evaluated stakeholder requirements and developed a new learning platform using Laravel 8 for the Secretariat General of DPR RI (Indonesian Parliament). Managed the complete development lifecycle from architecture to deployment, aligned with parliamentary workflows observed during sessions (RDPU & Rapat Paripurna).",
     image: "/images/1.png",
     link: "https://github.com/yuliaraishere/e-learning",
   },
   {
+    title: "Ecomurz (Rupa Marketplace)",
+    description:
+      "A full-stack multilingual e-commerce marketplace built with Next.js App Router and deployed on Vercel. Features product catalog with category filtering, cart and order management, and internationalization supporting 8 languages (ID, EN, JA, TL, VI, TH, HI, ZH). Powered by Supabase for backend and real-time data, Algolia for fast product search, and Resend for transactional emails.",
+    image: "/images/10.png",
+    link: "https://ecomurz.vercel.app/en",
+  },
+  {
     title: "E-bike Rent",
     description:
-      "This application is a desktop application that my team and I developed during a comparative study at Ciputra University.",
+      "A desktop application developed during a comparative study at Ciputra University focused on database implementation, relational data modeling, and rental tracking system operations.",
     image: "/images/2.png",
     link: "https://github.com/yuliaraishere/E-Bike_Rent",
   },
   {
     title: "Mockup Page",
     description:
-      "This project is a mockup design that my team and I created while participating in a bootcamp at Progate.",
+      "An interactive web mockup developed during training at Progate, implementing modern component hierarchy and responsive layout styling with clean JavaScript and CSS.",
     image: "/images/3.png",
     link: "https://yuliaraishere.github.io/A06_present/",
   },
