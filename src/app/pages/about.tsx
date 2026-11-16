@@ -20,39 +20,58 @@ const About = () => {
         </p>
 
         <p>
-          I am a <span className="text-white font-semibold">Full Stack Developer</span>{" "}
+          I am a{" "}
+          <span className="text-white font-semibold">Full Stack Developer</span>{" "}
           with experience delivering scalable web platforms for{" "}
-          <span className="text-white">financial services, government, and education clients</span>.{" "}
-          I build and maintain modern, high-performance web applications using{" "}
-          <span className="text-white">Next.js, Astro (SSR), React, TypeScript, Node.js, Supabase</span>,{" "}
-          and <span className="text-white">Headless CMS</span> platforms.
+          <span className="text-white">
+            financial services, government, and education clients
+          </span>
+          . I build and maintain modern, high-performance web applications using{" "}
+          <span className="text-white">
+            Next.js, Astro (SSR), React, TypeScript, Node.js, Supabase
+          </span>
+          , and <span className="text-white">Headless CMS</span> platforms.
         </p>
 
         <p>
           I bring a proven track record across{" "}
-          <span className="text-white">rapid website migrations</span> (migrated multi-site platforms from legacy .NET/MVC to Next.js within 3 days),{" "}
+          <span className="text-white">rapid website migrations</span> (migrated
+          multi-site platforms from legacy .NET/MVC to Next.js within 3 days),{" "}
           <span className="text-white">customer portals</span>,{" "}
-          <span className="text-white">CRM and system integrations</span> (HubSpot, Jotform, Resend, Svix webhooks),{" "}
-          and <span className="text-white">scheduled workflow automation</span> (Vercel Cron Jobs, DOCX parsing, QR generation, image export).{" "}
-          On the backend and database layer, I engineer robust solutions with{" "}
-          <span className="text-white">Node.js, PHP (Laravel, CodeIgniter), Astro API routes, REST APIs, Supabase migrations, and MySQL</span>,{" "}
-          backed by automated testing using <span className="text-white">Vitest and fast-check</span> (property-based testing).
+          <span className="text-white">CRM and system integrations</span>{" "}
+          (HubSpot, Jotform, Resend, Svix webhooks), and{" "}
+          <span className="text-white">scheduled workflow automation</span>{" "}
+          (Vercel Cron Jobs, DOCX parsing, QR generation, image export). On the
+          backend and database layer, I engineer robust solutions with{" "}
+          <span className="text-white">
+            Node.js, PHP (Laravel, CodeIgniter), Astro API routes, REST APIs,
+            Supabase migrations, and MySQL
+          </span>
+          , backed by automated testing using{" "}
+          <span className="text-white">Vitest and fast-check</span>{" "}
+          (property-based testing).
         </p>
 
         <p>
-          In my current role as a <span className="text-white font-semibold">Full-stack Developer</span> at{" "}
-          <span className="text-white">Hejaz Financial Services</span>, I build and maintain web platforms for{" "}
-          <span className="text-white">Hejaz AU, Halal Money, Hejaz Corporate, and Wahda</span> — driving frontend modernization, secure client portals, CRM automation, and cloud deployments on Vercel.
+          In my current role as a{" "}
+          <span className="text-white font-semibold">Full-stack Developer</span>{" "}
+          at <span className="text-white">Hejaz Financial Services</span>, I
+          build and maintain web platforms for{" "}
+          <span className="text-white">
+            Hejaz AU, Halal Money, Hejaz Corporate, and Wahda
+          </span>{" "}
+          — driving frontend modernization, secure client portals, CRM
+          automation, and cloud deployments on Vercel.
         </p>
 
-        <p>
+        {/* <p>
           I hold a Bachelor of Information Technology from{" "}
           <span className="text-white">Universitas Bina Sarana Informatika</span> (GPA:{" "}
           <span className="text-white">3.77 / 4.00</span>) and various certifications including{" "}
           <span className="text-white">Alibaba Cloud Computing</span>,{" "}
           <span className="text-white">BNSP Software Engineer</span>, and{" "}
           <span className="text-white">JavaScript & Node.js Development</span>.
-        </p>
+        </p> */}
 
         <div className="pt-4 flex flex-wrap gap-4 items-center">
           <Link
